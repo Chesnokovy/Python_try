@@ -38,7 +38,7 @@ def login():
     enter_login = Entry()
     text_enter_pass = Label(text="ВВедите ваш пароль: ")
     enter_password = Entry(show="*")
-    button_enter = Button(text="Войти", command=lambda: log_pass())
+    button_enter = Button(text="Войти в систему", command=lambda: log_pass())
     text_log.pack()
     text_enter_login.pack()
     enter_login.pack()
